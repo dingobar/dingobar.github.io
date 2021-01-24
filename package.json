@@ -3,6 +3,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "format": "yarn prettier -w **/*.md"
+    "format": "yarn prettier -w **/*.md",
+    "serve": "bundler exec jekyll serve"
   }
 }
