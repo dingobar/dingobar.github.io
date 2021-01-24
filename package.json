@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "format": "yarn prettier -w **/*.md"
   }
 }
