@@ -44,7 +44,7 @@ The biggest issue I have with DynamoDB, however, is that it doesn't work well fo
 analytics workloads. It scales automatically (unless on the free tier), but not fast enough to
 accommodate data scientist use (ie. low frequency high volume). I mentioned earlier that I can
 stream my entries from DynamoDB to S3 to decouple the database from the data, but the benefits of
-doing analytics in that way really only come into play when we have hundrets of new entries every
+doing analytics in that way really only come into play when we have hundreds of new entries every
 minute, and this is not the case for most services that I deal with. Alternatively I can set the
 minimum or provisioned capacity of the table higher, but that just makes Jeff Bezos richer and costs
 the same as a relational database in the end. Furthermore, I can use
