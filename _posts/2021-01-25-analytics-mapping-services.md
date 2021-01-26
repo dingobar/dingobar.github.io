@@ -11,7 +11,7 @@ tags: [crud, rest, modelling]
 Bad data models can spread like a plague, and unfortunately us data engineers are often central
 perpetrators. This is in particular the case when integrating with legacy systems, which I think
 most enterprises that have been around since the early-2000's have at least a handful of. The
-boundaries that caused formed these often monolithic applications have since disappeared, but
+boundaries that formed these often monolithic applications have since disappeared, but
 traditional BI with ETL-pipelines have made sure that their traces can be found in every corner of
 the data landscape. Whereas these pipelines have undoubtedly paved the way for analytics and created
 immense value, the continued perpetuation of dependencies to legacy data models gives huge issues
